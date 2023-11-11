@@ -1,0 +1,44 @@
+
+{
+    "login": {
+      "url": "https://automationexercise.com/",
+      "loginPage": "https://automationexercise.com/login",
+      "signupName": "input[data-qa='signup-name']",
+      "signupEmail": "input[data-qa='signup-email']",
+      "signupButton": "button[data-qa='signup-button']",
+      "genderCheckbox": "#id_gender1",
+      "passwordInput": "input[data-qa='password']",
+      "loginpaswordInput": "input[data-qa='login-password']",
+      "loginButton":"button[data-qa='login-button']",
+      "daysSelect": "select#days",
+      "monthsSelect": "select#months",
+      "yearsSelect": "select#years",
+      "newsletterCheckbox": "#newsletter",
+      "optinCheckbox": "#optin",
+      "firstNameInput": "#first_name",
+      "lastNameInput": "#last_name",
+      "companyInput": "#company",
+      "address1Input": "#address1",
+      "address2Input": "#address2",
+      "countrySelect": "#country",
+      "stateInput": "#state",
+      "cityInput": "#city",
+      "zipcodeInput": "#zipcode",
+      "mobileNumberInput": "#mobile_number",
+      "createAccountButton": "button[data-qa='create-account']"
+    },
+    "products": {
+      "productsPage": "https://automationexercise.com/products",
+      "searchProductInput": "#search_product",
+      "submitSearchButton": "#submit_search"
+    },
+    "cart": {
+      "productDetailsPage": "https://automationexercise.com/product_details/29",
+      "quantityInput": "#quantity"
+    },
+    "subscribe": {
+      "subscribeEmailInput": "#susbscribe_email",
+      "subscribeButton": "#subscribe"
+    }
+  }
+  
